@@ -39,6 +39,7 @@ operating plan, status model, and sprint order.
 | [24-spec-text-input.md](24-spec-text-input.md) | Text Input |
 | [25-spec-password-input.md](25-spec-password-input.md) | Password Input / Reveal |
 | [26-spec-table.md](26-spec-table.md) | Table |
+| [27-spec-copyable-field.md](27-spec-copyable-field.md) | Copyable Field |
 | **Pattern specs** | |
 | [04-components-account-menu.md](04-components-account-menu.md) | Account menu |
 | [05-components-create-menu.md](05-components-create-menu.md) | Create menu |
