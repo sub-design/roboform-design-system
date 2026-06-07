@@ -26,7 +26,8 @@ operating plan, status model, and sprint order.
 | [00-source-led-design-system-plan.md](00-source-led-design-system-plan.md) | Overall source strategy and product taxonomy |
 | [01-source-inventory.md](01-source-inventory.md) | Raw source files, classes, tokens, breakpoints, z-index |
 | [02-component-state-matrix.md](02-component-state-matrix.md) | Source classes → components → states |
-| [03-html-screen-request-backlog.md](03-html-screen-request-backlog.md) | Targeted HTML dumps still needed |
+| [03-html-screen-request-backlog.md](03-html-screen-request-backlog.md) | Targeted HTML dumps still needed (full backlog) |
+| [39-capture-checklist.md](39-capture-checklist.md) | Prioritized capture worklist (start here for captures) |
 | [14-work-plan-and-status.md](14-work-plan-and-status.md) | Operating model, area status, sprint plan |
 | [15-component-candidates.md](15-component-candidates.md) | Repeated UI parts tracked before promotion |
 | [16-foundations-draft.md](16-foundations-draft.md) | Draft token and foundation observations (rules) |
