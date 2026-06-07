@@ -160,7 +160,7 @@ Exit criteria:
 
 ## Design System Specs Progress
 
-Twelve components promoted from candidates to final specs, grounded in extracted tokens and
+Thirteen components promoted from candidates to final specs, grounded in extracted tokens and
 measured source CSS rules:
 
 - Button → `20-spec-button.md`
@@ -175,6 +175,7 @@ measured source CSS rules:
 - Toggle / Switch → `29-spec-toggle.md`
 - Select / Combobox → `30-spec-select.md`
 - Segmented Selector / Tabs → `31-spec-segmented-selector.md`
+- Security Strength Badge & Score → `32-spec-strength-badge.md`
 
 Each spec carries a recurring cross-cutting gap to resolve product-wide: **no focus-visible
 ring exists in source** (must be added via `--border-border-focused`), and **destructive
@@ -185,8 +186,10 @@ from the export and several legacy color values (`--edit-*`, `--*-button-*`,
 or live computed values. A recurring dependency also surfaced: a shared **selected-row fill
 token** (`#ddeaff` light / `#444`/`.16` dark) is reused by Table and Copyable Field but is
 not yet named in the token layer. With Vault Item done, all High-priority candidates are
-promoted. Next candidates by readiness: Security Strength Badge, Sharing Indicator, Radio
-Group, Empty State. After the remaining primitives, the
+promoted. The Strength Badge spec resolved the legacy `--password-*-strength-color` family
+onto the `--rag-rating-rag-*` tokens (the hardcoded strength hexes are identical to the RAG
+light values), partly closing the legacy-color gap. Next candidates by readiness: Sharing
+Indicator, Radio Group, Empty State, Avatar/Initials, Badge. After the remaining primitives, the
 highest-value move shifts to collecting the backlog captures (next best captures above) to
 unblock the pattern specs.
 

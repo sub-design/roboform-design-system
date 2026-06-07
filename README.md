@@ -44,6 +44,7 @@ operating plan, status model, and sprint order.
 | [29-spec-toggle.md](29-spec-toggle.md) | Toggle / Switch (binary switch + two-way switcher) |
 | [30-spec-select.md](30-spec-select.md) | Select / Combobox |
 | [31-spec-segmented-selector.md](31-spec-segmented-selector.md) | Segmented Selector / Tabs |
+| [32-spec-strength-badge.md](32-spec-strength-badge.md) | Security Strength Badge & Score |
 | **Pattern specs** | |
 | [04-components-account-menu.md](04-components-account-menu.md) | Account menu |
 | [05-components-create-menu.md](05-components-create-menu.md) | Create menu |
