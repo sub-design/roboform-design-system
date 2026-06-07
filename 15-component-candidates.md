@@ -28,7 +28,7 @@ Candidate maturity:
 | Settings Row | Seed | AutoFill, AutoSave, Advanced, License & Billing | focus/disabled details, long copy, opened selects | Medium |
 | Table | **Promoted → [26-spec-table.md](26-spec-table.md)** | Security Center tables, vault list, manage columns | (in spec) active sort capture, loading/empty, column resize, selected-row token | High |
 | Provider Picker | Seed | Import provider picker and Chrome instruction page | hover/focus/disabled, app/CSV next step, visible progress/result/error | Medium |
-| Vault Item / Row | Growing | grid/list, Security Center rows, Sharing sections | clean grid default, hover/focus/selected | High |
+| Vault Item / Row | **Promoted → [28-spec-vault-item.md](28-spec-vault-item.md)** | grid/list, Security Center rows, Sharing sections | (in spec) clean grid default capture, active border/shadow tokens, per-type grid anatomy | High |
 | Command Bar | Growing | editor header, instance commands, multiselect, row cmdbar | responsive/icon-only and disabled command states | High |
 | Empty State | Growing | emergency access, vault no-items, hidden security no-items | visible variants across product areas | Medium |
 | Security Strength Badge | Growing | Login detail, Security Center tables, password generator score colors | all strength/risk combinations in one place | High |
