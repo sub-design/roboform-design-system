@@ -2,19 +2,25 @@
 
 This is a draft foundation layer. It records observed rules and token directions, but it is not the final design-system token API.
 
+> **Measured values now live in [19-foundations-tokens.md](19-foundations-tokens.md).** That
+> file holds the real light/dark token pairs, type/radius/spacing/shadow/motion scales
+> extracted from `start-page-v8.css` and `common-ui.css`. This file keeps the *rules and
+> directions*; that file keeps the *evidence*.
+
 ## Draft Status
 
 | Foundation area | Status | Notes |
 |---|---|---|
-| Color | Draft | Source has light/dark themes, strength colors, sharing states, custom item backgrounds. |
-| Typography | Seed | Need CSS measurement extraction before final scale. |
-| Spacing / Density | Seed | Dense enterprise UI; editor panels and tables need compact spacing rules. |
-| Radius | Seed | Dialogs/cards/buttons appear low-radius; final scale not extracted yet. |
-| Shadow / Elevation | Seed | Menus/dialogs/toasts need layering tokens. |
-| Iconography | Draft | Large source icon families identified; product action taxonomy started. |
-| Motion | Seed | `rf-fade-in`, `rf-fade-out`, progress runners, toast movement. |
+| Color | Extracted | 80 light/dark token pairs measured; see [19-foundations-tokens.md](19-foundations-tokens.md) §1. Brand blue `#2979ff`/`#448aff`. |
+| Typography | Extracted | Family `Segoe UI…`; default size 15px, default weight 600; full scale in §2. |
+| Spacing / Density | Extracted | Steps 4/6/8/16/24/32/40 measured; proposed scale in §4. |
+| Radius | Extracted | Default 6px; scale 3/4/6/8/12 + circular in §3. |
+| Shadow / Elevation | Extracted | Menu/dialog/card shadow layers measured in §5. |
+| Iconography | Draft | Large source icon families identified; product action taxonomy started. Sizes in §3 of draft below. |
+| Motion | Extracted | Durations .15/.17/.3/.5/.8s; default .3s in §6. |
 | Sensitive Data | Draft | Security rules must shape reveal/copy/toast/fixtures. |
 | Accessibility | Seed | Need keyboard/focus evidence and final contracts. |
+| Legacy color values | Blocked | `common-ui.css` references legacy vars but their definitions are not in this export; see §8. |
 
 ## Color Token Directions
 

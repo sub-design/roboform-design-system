@@ -29,7 +29,8 @@ operating plan, status model, and sprint order.
 | [03-html-screen-request-backlog.md](03-html-screen-request-backlog.md) | Targeted HTML dumps still needed |
 | [14-work-plan-and-status.md](14-work-plan-and-status.md) | Operating model, area status, sprint plan |
 | [15-component-candidates.md](15-component-candidates.md) | Repeated UI parts tracked before promotion |
-| [16-foundations-draft.md](16-foundations-draft.md) | Draft token and foundation observations |
+| [16-foundations-draft.md](16-foundations-draft.md) | Draft token and foundation observations (rules) |
+| [19-foundations-tokens.md](19-foundations-tokens.md) | Extracted real token values: color light/dark pairs, type, radius, spacing, shadow, motion |
 | **Pattern specs** | |
 | [04-components-account-menu.md](04-components-account-menu.md) | Account menu |
 | [05-components-create-menu.md](05-components-create-menu.md) | Create menu |

@@ -158,6 +158,14 @@ Exit criteria:
 
 - App Shell and Settings patterns can be mapped.
 
+## Foundations Progress
+
+Real token values have been extracted from `start-page-v8.css` and `common-ui.css` into
+`19-foundations-tokens.md` (color light/dark pairs, typography, radius, spacing, shadow,
+motion). Foundation color/type/radius/spacing/shadow/motion areas moved from `Seed/Draft`
+to `Extracted`. Remaining foundation gap: legacy color values (referenced but not defined
+in this export) and final canonical naming.
+
 ## Current Next Best Captures
 
 1. Login password revealed with value redacted.
@@ -165,3 +173,5 @@ Exit criteria:
 3. Visible toast, ideally warning/error.
 4. Security Center table sorting or empty/loading.
 5. Settings Devices tab or settings navigation.
+6. (Unblocked, no capture needed) Base theme file with legacy `--*-button-*` /
+   `--password-*-strength-color` definitions, or computed values from a live DOM.
