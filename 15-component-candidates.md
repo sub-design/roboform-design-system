@@ -13,10 +13,10 @@ Candidate maturity:
 
 | Candidate | Maturity | Evidence surfaces | Main missing evidence | Likely DS priority |
 |---|---|---|---|---|
-| Button | Growing | dialogs, editors, sharing, emergency access, password generator, login Save enabled/disabled, unsaved-changes dialog | destructive styling, confirmed loading buttons if product has them | High |
-| Icon Button / Command Button | Growing | editor headers, instance commands, row actions, generator actions, table manage columns | focus-visible and disabled variants by size | High |
-| Dropdown / Context Menu | Growing | account menu, create menu, commands menu, popup menu, permission menu | hover/focus/disabled, nested Help submenu open | High |
-| Dialog | Growing | New Login, duplicate confirmation, unsaved changes confirmation, sharing, emergency access, manage columns | validation/error, loading, destructive intent styling, close/dismiss behavior | High |
+| Button | **Promoted → [20-spec-button.md](20-spec-button.md)** | dialogs, editors, sharing, emergency access, password generator, login Save enabled/disabled, unsaved-changes dialog | (in spec) destructive styling, legacy color values, compact loading | High |
+| Icon Button / Command Button | **Promoted → [21-spec-icon-button.md](21-spec-icon-button.md)** | editor headers, instance commands, row actions, generator actions, table manage columns | (in spec) focus-visible, disabled opacity, size consolidation | High |
+| Dropdown / Context Menu | **Promoted → [22-spec-dropdown-menu.md](22-spec-dropdown-menu.md)** | account menu, create menu, commands menu, popup menu, permission menu | (in spec) hover/focus/disabled, Help submenu, keyboard spec | High |
+| Dialog | **Promoted → [23-spec-dialog.md](23-spec-dialog.md)** | New Login, duplicate confirmation, unsaved changes confirmation, sharing, emergency access, manage columns | (in spec) validation/error, loading, destructive styling, light surface | High |
 | Toast / Notification | Seed | common notification create/unpin, settings information notification | visible position, dismissed, severity variants, placement rules across app/settings | High |
 | Copyable Field | Growing | Login detail fields, Identity fields, TOTP, Security table behavior | keyboard copy focus, copied feedback, sensitive masking rules | High |
 | Text Input | Growing | New Login, editor inputs, inline rename, emergency email, identity edit fields | error states, disabled states, validation copy | High |

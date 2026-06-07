@@ -158,6 +158,21 @@ Exit criteria:
 
 - App Shell and Settings patterns can be mapped.
 
+## Design System Specs Progress
+
+First four core primitives promoted from candidates to final specs, grounded in extracted
+tokens and measured source CSS rules:
+
+- Button → `20-spec-button.md`
+- Icon Button / Command Button → `21-spec-icon-button.md`
+- Dropdown / Context Menu → `22-spec-dropdown-menu.md`
+- Dialog → `23-spec-dialog.md`
+
+Each spec carries a recurring cross-cutting gap to resolve product-wide: **no focus-visible
+ring exists in source** (must be added via `--border-border-focused`), and **destructive
+intent reuses neutral source styling** (must map to error treatment). Next candidates by
+readiness: Text Input, Password Input / Reveal, Table, Copyable Field, Vault Item / Row.
+
 ## Foundations Progress
 
 Real token values have been extracted from `start-page-v8.css` and `common-ui.css` into
