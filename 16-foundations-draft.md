@@ -2,10 +2,12 @@
 
 This is a draft foundation layer. It records observed rules and token directions, but it is not the final design-system token API.
 
-> **Measured values now live in [19-foundations-tokens.md](19-foundations-tokens.md).** That
-> file holds the real light/dark token pairs, type/radius/spacing/shadow/motion scales
-> extracted from `start-page-v8.css` and `common-ui.css`. This file keeps the *rules and
-> directions*; that file keeps the *evidence*.
+> **Three-layer foundation:** this file keeps the *rules and directions*;
+> [19-foundations-tokens.md](19-foundations-tokens.md) holds the *measured evidence* (real
+> light/dark pairs, type/radius/spacing/shadow/motion); and
+> [40-tokens-canonical.md](40-tokens-canonical.md) proposes the *canonical token API*
+> (source→DS name map, newly named literals, naming-defect fixes, and the blocked legacy
+> values).
 
 ## Draft Status
 

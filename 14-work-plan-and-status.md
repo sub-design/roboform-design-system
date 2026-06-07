@@ -209,11 +209,20 @@ unblock the pattern specs.
 
 ## Foundations Progress
 
-Real token values have been extracted from `start-page-v8.css` and `common-ui.css` into
-`19-foundations-tokens.md` (color light/dark pairs, typography, radius, spacing, shadow,
-motion). Foundation color/type/radius/spacing/shadow/motion areas moved from `Seed/Draft`
-to `Extracted`. Remaining foundation gap: legacy color values (referenced but not defined
-in this export) and final canonical naming.
+Three-layer foundation is in place:
+
+- `16-foundations-draft.md` — rules & directions.
+- `19-foundations-tokens.md` — measured evidence (80 color pairs + type/radius/spacing/
+  shadow/motion scales).
+- `40-tokens-canonical.md` — proposed canonical token API: source→DS name map, nine newly
+  named tokens for hardcoded literals (selected fill, row hover, faint hover, item active/
+  outline border, rating empty, circular badge, modal/item scrim), the product-wide focus-
+  ring token, resolution of strength→rating and avatar→item-palette, naming-defect fixes,
+  and the blocked legacy `--*-button-*` / `--edit-*` / `--toggle-*` values.
+
+Remaining foundation gap: (1) base theme file for the blocked legacy values, (2) three
+decisions flagged in `40` §4 (selected-fill dark `#444` vs `.16`; rowHover token vs alias;
+circular badge alias).
 
 ## Current Next Best Captures
 
