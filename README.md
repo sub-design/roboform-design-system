@@ -33,6 +33,7 @@ operating plan, status model, and sprint order.
 | [16-foundations-draft.md](16-foundations-draft.md) | Draft token and foundation observations (rules) |
 | [19-foundations-tokens.md](19-foundations-tokens.md) | Extracted real token values: color light/dark pairs, type, radius, spacing, shadow, motion |
 | [40-tokens-canonical.md](40-tokens-canonical.md) | Proposed canonical token API: source→DS name map, new named tokens, defects, blocked legacy |
+| [41-base-theme-extraction.md](41-base-theme-extraction.md) | Console snippet to resolve the blocked legacy token values from the live app |
 | **Design system specs (final)** | |
 | [20-spec-button.md](20-spec-button.md) | Button |
 | [21-spec-icon-button.md](21-spec-icon-button.md) | Icon Button / Command Button |
