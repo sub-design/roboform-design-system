@@ -22,7 +22,7 @@ Candidate maturity:
 | Text Input | **Promoted → [24-spec-text-input.md](24-spec-text-input.md)** | New Login, editor inputs, inline rename, emergency email, identity edit fields | (in spec) dark hover border, base box geometry, legacy `--edit-*` values | High |
 | Password Input / Reveal | **Promoted → [25-spec-password-input.md](25-spec-password-input.md)** | New Login reveal, Login detail masked, Security Center behavior described | (in spec) reveal timeout, column mass-reveal gating, copy feedback | High |
 | Select / Combobox | **Promoted → [30-spec-select.md](30-spec-select.md)** | search type, account selector, folder selector, emergency timeout closed | (in spec) opened menu captures, disabled-option, autocomplete variant | Medium |
-| Segmented Selector / Tabs | Growing | vault sort/order, password generator, security center, sharing, emergency access, devices/activity tabs | keyboard focus, overflow, badge behavior | Medium |
+| Segmented Selector / Tabs | **Promoted → [31-spec-segmented-selector.md](31-spec-segmented-selector.md)** | vault sort/order, password generator, security center, sharing, emergency access, devices/activity tabs | (in spec) overflow for long tab sets, activation model, hover-fill token | Medium |
 | Toggle / Switch | **Promoted → [29-spec-toggle.md](29-spec-toggle.md)** | settings on/off switches, generator option rows, legacy two-way switcher | (in spec) switch track/knob geometry, legacy `--toggle-*` values | Medium |
 | Radio Group | Seed | AutoFill and AutoSave settings | focus/keyboard, disabled styling, validation if any | Medium |
 | Sheet Shell | Seed | Settings sheets and Devices & Activity | sheet navigation, mobile sizing, scroll behavior | Medium |
