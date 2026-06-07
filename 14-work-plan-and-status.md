@@ -160,7 +160,7 @@ Exit criteria:
 
 ## Design System Specs Progress
 
-Fourteen components promoted from candidates to final specs, grounded in extracted tokens and
+Nineteen components promoted from candidates to final specs, grounded in extracted tokens and
 measured source CSS rules:
 
 - Button → `20-spec-button.md`
@@ -177,6 +177,11 @@ measured source CSS rules:
 - Segmented Selector / Tabs → `31-spec-segmented-selector.md`
 - Security Strength Badge & Score → `32-spec-strength-badge.md`
 - Sharing Indicator → `33-spec-sharing-indicator.md`
+- Radio Group → `34-spec-radio-group.md`
+- Empty State → `35-spec-empty-state.md`
+- Avatar / Initials → `36-spec-avatar.md`
+- Badge / Count → `37-spec-badge.md`
+- Command Bar → `38-spec-command-bar.md`
 
 Each spec carries a recurring cross-cutting gap to resolve product-wide: **no focus-visible
 ring exists in source** (must be added via `--border-border-focused`), and **destructive
@@ -189,8 +194,16 @@ token** (`#ddeaff` light / `#444`/`.16` dark) is reused by Table and Copyable Fi
 not yet named in the token layer. With Vault Item done, all High-priority candidates are
 promoted. The Strength Badge spec resolved the legacy `--password-*-strength-color` family
 onto the `--rag-rating-rag-*` tokens (the hardcoded strength hexes are identical to the RAG
-light values), partly closing the legacy-color gap. Next candidates by readiness: Radio
-Group, Empty State, Avatar/Initials, Badge, Command Bar. After the remaining primitives, the
+light values), partly closing the legacy-color gap. The Avatar spec resolved its color
+slots onto the customizable item palette (`--customizable-palette-*` dark values), and the
+Strength Badge resolved the strength colors onto the RAG tokens — together these close most
+of the extractable token work. **All extractable component specs are now written.** The
+remaining promotable components (Sheet Shell, Settings Row, Identity Group Navigator,
+Identity Field Display/Editor, Activity List, Backup List, Provider Picker) are pattern-tier
+and largely blocked on backlog captures. The highest-value next move shifts to **collecting
+the backlog captures** (Current Next Best Captures below) and the **token cleanup** (naming
+the selected-fill, active-card-border, switch-knob, hover-fill, and nodata-rating steps;
+sourcing the base theme file for legacy `--edit-*` / `--*-button-*` / `--toggle-*` values). After the remaining primitives, the
 highest-value move shifts to collecting the backlog captures (next best captures above) to
 unblock the pattern specs.
 

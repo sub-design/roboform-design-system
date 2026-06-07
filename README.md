@@ -46,6 +46,11 @@ operating plan, status model, and sprint order.
 | [31-spec-segmented-selector.md](31-spec-segmented-selector.md) | Segmented Selector / Tabs |
 | [32-spec-strength-badge.md](32-spec-strength-badge.md) | Security Strength Badge & Score |
 | [33-spec-sharing-indicator.md](33-spec-sharing-indicator.md) | Sharing Indicator |
+| [34-spec-radio-group.md](34-spec-radio-group.md) | Radio Group |
+| [35-spec-empty-state.md](35-spec-empty-state.md) | Empty State |
+| [36-spec-avatar.md](36-spec-avatar.md) | Avatar / Initials |
+| [37-spec-badge.md](37-spec-badge.md) | Badge / Count |
+| [38-spec-command-bar.md](38-spec-command-bar.md) | Command Bar |
 | **Pattern specs** | |
 | [04-components-account-menu.md](04-components-account-menu.md) | Account menu |
 | [05-components-create-menu.md](05-components-create-menu.md) | Create menu |

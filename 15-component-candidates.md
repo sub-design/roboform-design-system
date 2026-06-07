@@ -24,14 +24,14 @@ Candidate maturity:
 | Select / Combobox | **Promoted → [30-spec-select.md](30-spec-select.md)** | search type, account selector, folder selector, emergency timeout closed | (in spec) opened menu captures, disabled-option, autocomplete variant | Medium |
 | Segmented Selector / Tabs | **Promoted → [31-spec-segmented-selector.md](31-spec-segmented-selector.md)** | vault sort/order, password generator, security center, sharing, emergency access, devices/activity tabs | (in spec) overflow for long tab sets, activation model, hover-fill token | Medium |
 | Toggle / Switch | **Promoted → [29-spec-toggle.md](29-spec-toggle.md)** | settings on/off switches, generator option rows, legacy two-way switcher | (in spec) switch track/knob geometry, legacy `--toggle-*` values | Medium |
-| Radio Group | Seed | AutoFill and AutoSave settings | focus/keyboard, disabled styling, validation if any | Medium |
+| Radio Group | **Promoted → [34-spec-radio-group.md](34-spec-radio-group.md)** | AutoFill and AutoSave settings | (in spec) focus ring, inline secondary label, validation | Medium |
 | Sheet Shell | Seed | Settings sheets and Devices & Activity | sheet navigation, mobile sizing, scroll behavior | Medium |
 | Settings Row | Seed | AutoFill, AutoSave, Advanced, License & Billing | focus/disabled details, long copy, opened selects | Medium |
 | Table | **Promoted → [26-spec-table.md](26-spec-table.md)** | Security Center tables, vault list, manage columns | (in spec) active sort capture, loading/empty, column resize, selected-row token | High |
 | Provider Picker | Seed | Import provider picker and Chrome instruction page | hover/focus/disabled, app/CSV next step, visible progress/result/error | Medium |
 | Vault Item / Row | **Promoted → [28-spec-vault-item.md](28-spec-vault-item.md)** | grid/list, Security Center rows, Sharing sections | (in spec) clean grid default capture, active border/shadow tokens, per-type grid anatomy | High |
-| Command Bar | Growing | editor header, instance commands, multiselect, row cmdbar | responsive/icon-only and disabled command states | High |
-| Empty State | Growing | emergency access, vault no-items, hidden security no-items | visible variants across product areas | Medium |
+| Command Bar | **Promoted → [38-spec-command-bar.md](38-spec-command-bar.md)** | editor header, instance commands, multiselect, row cmdbar | (in spec) responsive label-drop order, editor cmdbar geometry, overflow menu | High |
+| Empty State | **Promoted → [35-spec-empty-state.md](35-spec-empty-state.md)** | emergency access, vault no-items, hidden security no-items | (in spec) responsive container, text scale, loading-vs-empty | Medium |
 | Security Strength Badge | **Promoted → [32-spec-strength-badge.md](32-spec-strength-badge.md)** | Login detail, Security Center tables, password generator score colors | (in spec) shield shape distinctness, score thresholds, nodata token | High |
 | Sharing Indicator | **Promoted → [33-spec-sharing-indicator.md](33-spec-sharing-indicator.md)** | vault items, folders, Sharing Center, identity nav | (in spec) login-only/pending glyphs, color.sharing.* tokens, shape distinctness | Medium |
 | Identity Group Navigator | Seed | Identity detail view | edit-mode, group menu, drag/reorder if any | Medium |
