@@ -41,6 +41,8 @@ operating plan, status model, and sprint order.
 | [26-spec-table.md](26-spec-table.md) | Table |
 | [27-spec-copyable-field.md](27-spec-copyable-field.md) | Copyable Field |
 | [28-spec-vault-item.md](28-spec-vault-item.md) | Vault Item / Row |
+| [29-spec-toggle.md](29-spec-toggle.md) | Toggle / Switch (binary switch + two-way switcher) |
+| [30-spec-select.md](30-spec-select.md) | Select / Combobox |
 | **Pattern specs** | |
 | [04-components-account-menu.md](04-components-account-menu.md) | Account menu |
 | [05-components-create-menu.md](05-components-create-menu.md) | Create menu |

@@ -21,8 +21,9 @@ Candidate maturity:
 | Copyable Field | **Promoted → [27-spec-copyable-field.md](27-spec-copyable-field.md)** | Login detail fields, Identity fields, TOTP, Security table behavior | (in spec) button-level copied feedback, keyboard copy, identity pane geometry | High |
 | Text Input | **Promoted → [24-spec-text-input.md](24-spec-text-input.md)** | New Login, editor inputs, inline rename, emergency email, identity edit fields | (in spec) dark hover border, base box geometry, legacy `--edit-*` values | High |
 | Password Input / Reveal | **Promoted → [25-spec-password-input.md](25-spec-password-input.md)** | New Login reveal, Login detail masked, Security Center behavior described | (in spec) reveal timeout, column mass-reveal gating, copy feedback | High |
-| Select / Combobox | Growing | search type, account selector, folder selector, emergency timeout closed | timeout menu opened, disabled/error states | Medium |
+| Select / Combobox | **Promoted → [30-spec-select.md](30-spec-select.md)** | search type, account selector, folder selector, emergency timeout closed | (in spec) opened menu captures, disabled-option, autocomplete variant | Medium |
 | Segmented Selector / Tabs | Growing | vault sort/order, password generator, security center, sharing, emergency access, devices/activity tabs | keyboard focus, overflow, badge behavior | Medium |
+| Toggle / Switch | **Promoted → [29-spec-toggle.md](29-spec-toggle.md)** | settings on/off switches, generator option rows, legacy two-way switcher | (in spec) switch track/knob geometry, legacy `--toggle-*` values | Medium |
 | Radio Group | Seed | AutoFill and AutoSave settings | focus/keyboard, disabled styling, validation if any | Medium |
 | Sheet Shell | Seed | Settings sheets and Devices & Activity | sheet navigation, mobile sizing, scroll behavior | Medium |
 | Settings Row | Seed | AutoFill, AutoSave, Advanced, License & Billing | focus/disabled details, long copy, opened selects | Medium |
