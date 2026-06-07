@@ -160,8 +160,8 @@ Exit criteria:
 
 ## Design System Specs Progress
 
-Six core primitives promoted from candidates to final specs, grounded in extracted tokens
-and measured source CSS rules:
+Seven components promoted from candidates to final specs, grounded in extracted tokens and
+measured source CSS rules:
 
 - Button → `20-spec-button.md`
 - Icon Button / Command Button → `21-spec-icon-button.md`
@@ -169,6 +169,7 @@ and measured source CSS rules:
 - Dialog → `23-spec-dialog.md`
 - Text Input → `24-spec-text-input.md`
 - Password Input / Reveal → `25-spec-password-input.md`
+- Table → `26-spec-table.md`
 
 Each spec carries a recurring cross-cutting gap to resolve product-wide: **no focus-visible
 ring exists in source** (must be added via `--border-border-focused`), and **destructive
@@ -176,8 +177,8 @@ intent reuses neutral source styling** (must map to error treatment). A third re
 emerged from the input specs: **the dark-theme `--input-border-hovered` value is missing**
 from the export and several legacy color values (`--edit-*`, `--*-button-*`,
 `--password-*-strength-color`) are referenced but undefined — both need the base theme file
-or live computed values. Next candidates by readiness: Table, Copyable Field, Vault Item /
-Row, Toggle, Select/Combobox.
+or live computed values. Next candidates by readiness: Copyable Field, Vault Item / Row,
+Toggle, Select/Combobox, Security Strength Badge.
 
 ## Foundations Progress
 

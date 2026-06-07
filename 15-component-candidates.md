@@ -26,7 +26,7 @@ Candidate maturity:
 | Radio Group | Seed | AutoFill and AutoSave settings | focus/keyboard, disabled styling, validation if any | Medium |
 | Sheet Shell | Seed | Settings sheets and Devices & Activity | sheet navigation, mobile sizing, scroll behavior | Medium |
 | Settings Row | Seed | AutoFill, AutoSave, Advanced, License & Billing | focus/disabled details, long copy, opened selects | Medium |
-| Table | Growing | Security Center tables, vault list, manage columns | sort active, loading/empty, column resizing/reorder | High |
+| Table | **Promoted → [26-spec-table.md](26-spec-table.md)** | Security Center tables, vault list, manage columns | (in spec) active sort capture, loading/empty, column resize, selected-row token | High |
 | Provider Picker | Seed | Import provider picker and Chrome instruction page | hover/focus/disabled, app/CSV next step, visible progress/result/error | Medium |
 | Vault Item / Row | Growing | grid/list, Security Center rows, Sharing sections | clean grid default, hover/focus/selected | High |
 | Command Bar | Growing | editor header, instance commands, multiselect, row cmdbar | responsive/icon-only and disabled command states | High |
