@@ -33,7 +33,7 @@ Candidate maturity:
 | Command Bar | Growing | editor header, instance commands, multiselect, row cmdbar | responsive/icon-only and disabled command states | High |
 | Empty State | Growing | emergency access, vault no-items, hidden security no-items | visible variants across product areas | Medium |
 | Security Strength Badge | **Promoted → [32-spec-strength-badge.md](32-spec-strength-badge.md)** | Login detail, Security Center tables, password generator score colors | (in spec) shield shape distinctness, score thresholds, nodata token | High |
-| Sharing Indicator | Growing | vault items, folders, Sharing Center, identity nav | hover/focus and no-permission variants | Medium |
+| Sharing Indicator | **Promoted → [33-spec-sharing-indicator.md](33-spec-sharing-indicator.md)** | vault items, folders, Sharing Center, identity nav | (in spec) login-only/pending glyphs, color.sharing.* tokens, shape distinctness | Medium |
 | Identity Group Navigator | Seed | Identity detail view | edit-mode, group menu, drag/reorder if any | Medium |
 | Identity Field Display | Growing | Person, address, card, bank, business, passport, car | empty/warning, copied feedback | Medium |
 | Identity Field Editor | Growing | Person, address, card, bank, business, passport, car edit-mode | save enabled/loading, validation, opened select menus | Medium |
