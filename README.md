@@ -36,6 +36,8 @@ operating plan, status model, and sprint order.
 | [21-spec-icon-button.md](21-spec-icon-button.md) | Icon Button / Command Button |
 | [22-spec-dropdown-menu.md](22-spec-dropdown-menu.md) | Dropdown / Context Menu |
 | [23-spec-dialog.md](23-spec-dialog.md) | Dialog |
+| [24-spec-text-input.md](24-spec-text-input.md) | Text Input |
+| [25-spec-password-input.md](25-spec-password-input.md) | Password Input / Reveal |
 | **Pattern specs** | |
 | [04-components-account-menu.md](04-components-account-menu.md) | Account menu |
 | [05-components-create-menu.md](05-components-create-menu.md) | Create menu |

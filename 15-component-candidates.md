@@ -19,8 +19,8 @@ Candidate maturity:
 | Dialog | **Promoted → [23-spec-dialog.md](23-spec-dialog.md)** | New Login, duplicate confirmation, unsaved changes confirmation, sharing, emergency access, manage columns | (in spec) validation/error, loading, destructive styling, light surface | High |
 | Toast / Notification | Seed | common notification create/unpin, settings information notification | visible position, dismissed, severity variants, placement rules across app/settings | High |
 | Copyable Field | Growing | Login detail fields, Identity fields, TOTP, Security table behavior | keyboard copy focus, copied feedback, sensitive masking rules | High |
-| Text Input | Growing | New Login, editor inputs, inline rename, emergency email, identity edit fields | error states, disabled states, validation copy | High |
-| Password Input / Reveal | Growing | New Login reveal, Login detail masked, Security Center behavior described | saved-login reveal classes, reveal timeout/copy behavior | High |
+| Text Input | **Promoted → [24-spec-text-input.md](24-spec-text-input.md)** | New Login, editor inputs, inline rename, emergency email, identity edit fields | (in spec) dark hover border, base box geometry, legacy `--edit-*` values | High |
+| Password Input / Reveal | **Promoted → [25-spec-password-input.md](25-spec-password-input.md)** | New Login reveal, Login detail masked, Security Center behavior described | (in spec) reveal timeout, column mass-reveal gating, copy feedback | High |
 | Select / Combobox | Growing | search type, account selector, folder selector, emergency timeout closed | timeout menu opened, disabled/error states | Medium |
 | Segmented Selector / Tabs | Growing | vault sort/order, password generator, security center, sharing, emergency access, devices/activity tabs | keyboard focus, overflow, badge behavior | Medium |
 | Radio Group | Seed | AutoFill and AutoSave settings | focus/keyboard, disabled styling, validation if any | Medium |
